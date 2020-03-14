@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,500,800&display=swap');
+.navbar{
+    height: 99px;
+    background-color: white !important;
+    padding: 20px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+.bg{
+    background-color: red;
+}
+.navbar-nav{
+    margin-right: 10%;
+    font-size: 19px;
+}
+.nav-item{
+    margin-right: 30px;
+}
+.logo{
+    margin-left: 10%; 
+}
+.intro-section{
+    background-image: url('../Images/banner.webp');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    height: 700px;
+    position: relative;
+
+}
+.dog-photo{
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+
+.contact-us-btn{
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    padding: 17px 50px;
+    color: rgb(250, 100, 0);
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+.contact-us-btn:hover{
+    background-color:  rgb(250, 50, 0);
+    color: white;
+}
+.services{
+    margin-top: 300px;
+}
+.card{
+    width: 398px;
+    height: 490px;
+    box-sizing: border-box;
+    border: none;
+    transition: all 0.3s;
+    transition-timing-function: ease;
+}
+.card-inside{
+    width: 100%;
+    height: 90%;
+    border: rgb(248, 170, 118) 1px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 50px; 
+    padding: 15px;
+    padding-top:50px;
+    transition: all 0.2s ease-in-out; 
+}
+.service-img{
+    background-image: url("../Images/service_icon_bg_1.webp");
+    width: 161px;
+    background-repeat: no-repeat;
+    height: 143px;
+    margin: auto;
+}
+.service-name{
+    font-size: 25px;
+    white-space: nowrap;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.service-des{
+    color: rgb(105, 105, 105);
+}
+.card-inside:hover{
+    box-shadow: 0 16px 35px 0 rgba(0,0,2,.08);
+    border: 2px white solid;
+    transition: all 0.3s ease-in-out;
+}
+.btn-static{
+    background-image: -webkit-linear-gradient(0deg,#f14437 0%,#ed5b0d 99%);
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    padding: 17px 50px;
+    color: white;
+    
+}
+
+.regular{
+    font-weight: 300; 
+    font-size: 50px;
+}
+.bold-text{
+    font-weight: 800; 
+    font-size: 50px;
+}
+.square{
+    width: 100%;
+    height: 240px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    box-shadow: 0 16px 35px 0 rgba(0,0,2,.08);
+}
+.our-team{
+    margin-top: 100px;  
+}
+.bold{
+    font-weight: 800;
+}
+.team-banner{
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 179px;
+    height: 80px;
+    padding: 16px 30px;
+    display: block;
+    position: absolute;
+    left: 25%;
+    top: 290px;
+    background-color: white;
+    white-space: nowrap;
+    box-shadow: 0 16px 35px 0 rgba(0,0,2,.08);
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.team-banner:hover{
+    transform: translateY(-10px);
+}
+.contact-us{
+    background-image: url("../Images/contact_bg.webp");
+    width: 100%;
+    height: 650px;
+    box-sizing: border-box;
+    padding-top: 10%;
+    background-repeat: no-repeat;
+    margin-top: 200px; 
+}
+.footer{
+    margin-top: 100px;
+}
+.footer p{
+    color: gray;
+    line-height: 1px;
+}

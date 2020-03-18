@@ -2,11 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,500,800&display=swap');
 .navbar{
-    height: 99px;
     background-color: white !important;
     padding: 20px;
+    height: 99px;
 }
-
 *{
     font-family: 'Poppins', sans-serif;
 
@@ -195,6 +194,11 @@ html,body
 @media only screen and (max-width: 768px){
     .team-member{
         margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 990px){
+    .navbar{
+        height: auto !important;
     }
 }
 .footer p{
